@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Mooli', sans-serif ;
+       
+}
+header{
+    background-color: rgb(250, 212, 218);
+    color:rgb(222, 200, 5);
+    font-weight: 600;
+    width: 63.1em;
+    height: 10vh;
+    font-size: 1.3em;
+}
+
+.cabecalho{
+    display: inline-flex;
+    margin-top: 1%;
+    padding-left: 20%;
+    width: 90%; 
+}
+
+li{
+    margin: 0.7em;
+    padding-left: 0em 0.1em 0.2em 0.2em;
+    cursor:pointer;
+    display: flex;
+    list-style: none;
+}
+.pecas{
+    width: 90vw;
+    height: 66.6vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+   
+}
+div{
+    width:16vw;
+    height: 60vh;
+    margin-left:2%;
+    margin-top: 5%;
+}
+.blusa, .saia, .vestido1, .vestido2, .vestido3{
+    width: 100%;
+    height: 40vh;
+    padding-left:5%;
+    flex-wrap: wrap;
+}
+
+h3, .opcao1, .opcao2, .opcao3, .opcao4, .opcao5{
+    margin-left:25%;
+}
+button{
+    cursor: pointer;
+    height: 10%;
+    width: 80%;
+    margin-left:10%;
+    border:solid;
+    color:rgb(142, 101, 181);
+    font-size: 15px;
+    border-radius: 10%;
+}
+.rodapé{
+    display: flex;
+    padding:1em  0.5em 0.1em 2em;
+
+}
+fieldset{
+    width: 90vw;
+    color:rgba(8, 69, 29, 0.535);
+    font-size: 25px;
+    margin-top: 1.4em;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.btn{
+    cursor: pointer;
+    height: 10%;
+    width: 15%;
+    border:solid;
+    color:rgb(91, 209, 251);
+    font-size: 0.7em;
+    border-radius: 10%;
+    display: flexbox;
+    justify-content: center;
+   
+}
