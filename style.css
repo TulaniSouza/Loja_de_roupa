@@ -24,7 +24,7 @@ header{
 }
 
 li{
-    margin: 0.2em 0.2em 0.7em 0.7em;
+    margin: 0.3% 3% 0.3% 3%;
     font-size: 1.3rem;
     cursor:pointer;
     list-style: none;
@@ -87,28 +87,33 @@ button{
 }
 .rodapé{
     display: flex;
-    padding:1em  0.5em 0.1em 2em;
+    padding:1%  0.5% 0.3% 2%;
+    height: 8vh;
+    margin-top:6%;
 
 }
 fieldset{
     width: 90vw;
     color:rgba(8, 69, 29, 0.535);
-    font-size: 25px;
-    margin-top: 1.4em;
+    font-size: 1.1em;
+    display: flex;
+    margin-left: 4%;
     justify-content: center;
     align-items: center;
+    padding:0.2% 0.7% 0.7% 0.2%;
     
     
 }
 .btn{
     cursor: pointer;
+    border:solid 2px;
+    color:rgb(91, 209, 251);
     height: 10%;
     width: 15%;
-    border:solid;
-    color:rgb(91, 209, 251);
-    font-size: 0.7em;
+    font-size: 0.9em;
     border-radius: 10%;
-    display: flexbox;
+    padding: 0.1% 0.3% 1.6% 0.7%;
     justify-content: center;
+    display: flex;
    
 }
