@@ -121,6 +121,9 @@ fieldset{
     display: flex;
    
 }
+.footer-btn{
+    display:none;
+}
 @media (min-width:687px) and (max-width:702px){
     header{
         width: 100%;
