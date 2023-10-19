@@ -132,7 +132,10 @@ fieldset{
         display: flex;
         
     }
-   
+   div{
+    margin-left: none;    
+   }
+  
     .cabecalho{
         display:flex;
         width: 100%;
@@ -183,10 +186,23 @@ fieldset{
     .cabecalho{
         display: none;
     }
+    .pecas{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 78vw;
+        height: 70%;
+       }
+    
     .add{
         padding:10% 53% 53% 3%;
         text-align: center;
+        align-items: center;
         color:rgb(142, 101, 181);
+    }
+    div{
+        width: 60%;
+        height: 100%;
     }
     fieldset{
         display: flex;
